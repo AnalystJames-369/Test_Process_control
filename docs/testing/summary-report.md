@@ -2,7 +2,7 @@
 
 **Project Name:** Test_Process_Control  
 **Execution Date:** 2026-08-26  
-**Author:** QA Engineering Team  
+**Author:** Tiago Augusto (QA Junior)  
 **Overall Status:** APPROVED / RELEASE READY  
 
 ---
