@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  locust-runner:
+    build: .
+    container_name: test_process_control_engine
+    volumes:
+      - ./reports:/app/reports
+    environment:
+      - TARGET_HOST=http://host.docker.internal:8000
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
