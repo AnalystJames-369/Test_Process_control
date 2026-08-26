@@ -58,6 +58,16 @@ The test harness automates four distinct load profiles to evaluate system behavi
 * **Portable Container Architecture:** Fully containerized setup via `Dockerfile` and `docker-compose.yml` for execution in any CI/CD environment.
 
 ---
+## 🚀 Como Executar com Docker (Recomendado)
+
+Se você possui o Docker e o Docker Compose instalados na sua máquina, você pode executar toda a suíte de testes de carga (Nominal, Estresse e Pico) com um único comando, sem precisar configurar ambientes Python locais:
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/AnalystJames-369/Test_Process_control.git](https://github.com/AnalystJames-369/Test_Process_control.git)
+   cd Test_Process_control
+
+---
 
 ## 📂 Repository Structure
 
@@ -71,16 +81,5 @@ The test harness automates four distinct load profiles to evaluate system behavi
 ├── .gitignore             # Exclusion rules for local logs and report caches
 ├── reports/               # Automated HTML execution summary artifacts
 └── README.md              # Master Project Documentation
-
----
-
-## 🚀 Como Executar com Docker (Recomendado)
-
-Se você possui o Docker e o Docker Compose instalados na sua máquina, você pode executar toda a suíte de testes de carga (Nominal, Estresse e Pico) com um único comando, sem precisar configurar ambientes Python locais:
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/AnalystJames-369/Test_Process_control.git](https://github.com/AnalystJames-369/Test_Process_control.git)
-   cd Test_Process_control
 
 
