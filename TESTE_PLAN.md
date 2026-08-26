@@ -2,7 +2,7 @@
 
 **Project:** Test_Process_Control  
 **Target System:** RESTful Web API (`localhost` / Cloud Host)  
-**Author:** QA Engineering Team  
+**Author:** Tiago Augusto (QA Junior)  
 **Standards:** ISTQB® Certified Tester Foundation Level (CTFL) v4.0  
 
 ---
